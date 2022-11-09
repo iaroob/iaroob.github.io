@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  color: #242424;
+  text-align: center;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.text--purple {
+  color: #0630b1;
+}
+
+/* NAVIGATION BAR */
+nav {
+  height: 100px;
+  width: 100px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__link {
+  transition: transform .3s ease;
+
+}
+.nav__link:hover {
+  transform: scale(1.2);
+}
+
+.nav__link--list {
+  display: flex;
+}
+
+.nav__link--anchor {
+  margin: 0 12px;
+  color: #242424;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav__link--anchor-primary {
+  background-color: #0630b1;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: white;
+  transition: all 300ms ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20);
+}
+
+.nav__link--anchor-primary:hover {
+  background-color: #5d3eff;
+}
+
+.personal__logo {
+  font-size: 24px;
+  color: #0630b1;
+  margin: 0 12px;
+  font-weight: bold;
+  padding-right: 25rem;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* ABOUT ME */
+#about-me {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.about-me__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__info--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-me__picture--mask {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20);
+
+}
+
+.about-me__picture {
+  width: 100%;
+  transform: scale(1.4);
+  padding-bottom: 100px;
+  padding-left: 12px;
+}
+
+.about-me__info--para {
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+.about-me__info--title {
+  margin-bottom: 28px;
+  padding-top: 10px;
+}
+
+.about-me__link {
+  font-size: 25px;
+  color: #242424;
+  text-decoration: none;
+  padding: 0 16px;
+}
+
+.about-me__link i {
+  transition: transform .3s ease-in-out;
+}
+
+.about-me__link i:hover {
+  transform: scale(1.5);
+}
+
+.about-me__img--container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.about-me__img {
+  width: 100%;
+}
